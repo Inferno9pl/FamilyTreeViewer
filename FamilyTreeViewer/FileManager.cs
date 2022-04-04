@@ -39,6 +39,8 @@ namespace FamilyTreeViewer
 
             Console.WriteLine("Zapisano ");
             file.Close();
+
+            //w zasadzie to ja tylko nodes pewnie muszę zserializować i connections
         }
 
 

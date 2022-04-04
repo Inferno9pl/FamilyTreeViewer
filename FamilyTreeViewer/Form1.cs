@@ -255,7 +255,7 @@ namespace FamilyTreeViewer
 
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
-                if(fileDialog.FilterIndex == 3)
+                if(fileDialog.FilterIndex == 4)
                 {
                     FileManager.SaveToXML(fileDialog.FileName, tree);
                 }
